@@ -54,7 +54,7 @@ export default function AnimeCard({ anime }: Prop) {
           </div>
           <div className="flex flex-row gap-2 items-center">
             <Image
-              src="./star.png"
+              src="/star.png"
               alt="star"
               width={18}
               height={18}
