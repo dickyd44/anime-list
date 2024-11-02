@@ -25,7 +25,7 @@ export default function LoadMore() {
 
   return (
     <>
-      <section className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10">
+      <section className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 place-items-center gap-10">
         {data}
       </section>
       <section className="flex justify-center items-center w-full">
